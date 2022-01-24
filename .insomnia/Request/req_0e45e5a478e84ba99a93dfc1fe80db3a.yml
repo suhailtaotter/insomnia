@@ -1,0 +1,25 @@
+_id: req_0e45e5a478e84ba99a93dfc1fe80db3a
+type: Request
+parentId: wrk_093f6ef1f55f404e9cae6a2a33a23145
+modified: 1642983494397
+created: 1642983167834
+url: "{{ _.url }}/get_serviceproviders/"
+name: list service providers
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_920bdb9e31204f6495633773c42f6454
+    name: Authorization
+    value: "{{ _.token }}"
+    description: ""
+authentication: {}
+metaSortKey: -1642981070903.4375
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

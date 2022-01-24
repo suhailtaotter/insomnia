@@ -1,0 +1,31 @@
+_id: req_198b02665b6b4bbfabfe3d16fd0c0a42
+type: Request
+parentId: wrk_093f6ef1f55f404e9cae6a2a33a23145
+modified: 1642983623168
+created: 1642983579623
+url: "{{ _.url }}/accounts/verify-registration/"
+name: Email Verify
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "user_id": "6",
+        "timestamp": "1642674371",
+        "signature": "t9a-fmYTH5qsmFDqpvZ_dIQMqVdbRsKzvCovL4H8Cmo"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_50406e5239a346abb3904a48abc3e7b8
+authentication: {}
+metaSortKey: -1642983579623
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

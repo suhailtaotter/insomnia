@@ -1,0 +1,25 @@
+_id: req_b579ea2f831b45a3a14a70b3cf8f738c
+type: Request
+parentId: fld_0daf9b705017439186dc3440f9c8329f
+modified: 1642982841513
+created: 1642982006846
+url: "{{ _.url }}/freelance_profile/"
+name: get
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_9c4c609947074343be160d181c27573b
+    name: Authorization
+    value: "{{ _.token }}"
+    description: ""
+authentication: {}
+metaSortKey: -1642982006846
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

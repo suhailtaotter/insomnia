@@ -1,0 +1,25 @@
+_id: req_9b149ea0ff8744c19c83231200de1d28
+type: Request
+parentId: fld_aeb9175ca90e4ee29c6c226fd9c4b5fa
+modified: 1642981052062
+created: 1642980772993
+url: "{{ _.url }}/portfolio/4/"
+name: delete
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers:
+  - id: pair_272ecd43a53f44ecae2a11823adbfbb9
+    name: authorization
+    value: "{{ _.token }}"
+    description: ""
+authentication: {}
+metaSortKey: -1642980772993
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

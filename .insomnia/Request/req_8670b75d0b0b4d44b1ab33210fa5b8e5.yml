@@ -1,0 +1,33 @@
+_id: req_8670b75d0b0b4d44b1ab33210fa5b8e5
+type: Request
+parentId: fld_43f23fb2a11b4e32874c40d6b196a27c
+modified: 1642983131628
+created: 1642983046776
+url: "{{ _.url }}/client_profile/"
+name: edit
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"timezone":"-5:30"
+    }
+parameters: []
+headers:
+  - id: pair_9e88403864fa4d37bf04a37fac19dd4d
+    name: Authorization
+    value: "{{ _.token }}"
+    description: ""
+  - name: Content-Type
+    value: application/json
+    id: pair_c95c0dd84b78476d81841f5fe5fe2153
+authentication: {}
+metaSortKey: -1642983046776
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

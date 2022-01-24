@@ -1,0 +1,10 @@
+_id: ut_c989c63349b84b3dae33c5580d002e4f
+type: UnitTest
+parentId: uts_c2a1a784652746789f6af3355d32e408
+modified: 1642983508832
+created: 1642983480981
+requestId: req_d0e7d0cee33946ba8b8c4a86e3456cd7
+name: signup
+code: |-
+  const response1 = await insomnia.send();
+  expect(response1.status).to.equal(200);

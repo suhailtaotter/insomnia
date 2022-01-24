@@ -1,0 +1,205 @@
+_id: req_857c7e5cc0234354a2793f866577aa9d
+type: Request
+parentId: fld_0daf9b705017439186dc3440f9c8329f
+modified: 1642982835199
+created: 1642982053004
+url: "{{ _.url }}/freelance_profile/"
+name: save
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - name: category
+      value: "1"
+      id: pair_286071a235df494e8ecde0906277d5d9
+    - id: pair_7dc18c0b08ea4481b6d27fd901e112be
+      name: profile_pic
+      value: ""
+      description: ""
+      type: file
+      multiline: null
+      fileName: /home/suhail/Desktop/2777384.jpeg
+    - id: pair_d5b0e131f062486ebbb8fc50f8e86821
+      name: tagline
+      value: django
+      description: ""
+    - id: pair_ae697adf45ae4ea3838f904bc981ff3f
+      name: bio
+      value: >
+        Suhail VS - suhailvs@gmail.com
+
+        ==============================
+
+
+        I am currently a full-stack Django web developer. 
+
+
+        I started programming in Visualbasic 4.0(invoice softwares for medical shops) at an age of 12(2001). Then I moved to python at the age of 19(2008). Then I moved to webdesigning in Python, Django, CSS, Jquery, GIT etc on Ubuntu at 22(2011).
+
+
+        Links
+
+        =====
+
+        + Github: https://github.com/suhailvs
+
+        + Stackoverflow: https://stackoverflow.com/users/2351696
+
+        + Sourceforge: https://sourceforge.net/u/suhails/profile/
+
+
+        About me
+
+        ========
+
+        + age: 33yrs
+
+        + email: suhailvs@gmail.com
+
+        + skype: suhailvs
+      description: ""
+      type: text
+      multiline: text/x-markdown
+    - id: pair_1942c60eacb74a178620dbbff6698235
+      name: whatsapp
+      value: "78356775981"
+      description: ""
+      disabled: false
+    - id: pair_dae3bf62ec884fc795c3023dabab8a9a
+      name: hourly_rate
+      value: "10.5"
+      description: ""
+    - id: pair_1137ac72dbba4929959cdfef2f4ad384
+      name: work_experience
+      value: "7.5"
+      description: ""
+    - id: pair_025815256ede4c4cada8b7c570497bfe
+      name: educational_qualifications
+      value: >-
+        Django developer at Capsone(2012 - 2013)
+
+        ========================================
+
+
+        http://itechtalents.com/
+
+        ------------------------
+
+
+        Worked on a Django website for a job management. User login for 2 seperate users(jobseeker and employer). Environment for posting and applying jobs.
+
+
+        Technologies used: Linux, python, Django, TwitterBootstrap, Jquery, Javascript
+
+
+        Freelancer at elance.com (2013 - 2014)
+
+        ======================================
+
+
+        Rendering Service: http://sparkrender.com
+
+        -----------------------------------------
+
+        Working as a developer maintaining and updating an Rendering system using a Python/Django backend with a Django REST Framework based API. Lead the team in building an application which provided Modo Rendering and syncing with the available API. Added payment gateway using Paypal. Involved in planning and design of new features including spending time with users to see how they interact with the system and working with product managers to help shape intuitive and efficient features and workflows.
+
+
+        Technologies used: Linux, Python, Django, MySQL, Javascript, Amazon Web Services, Celery, Rabbitmq
+
+
+
+        Parking Management: http://flexspot.co
+
+        --------------------------------------
+
+
+        Involved in planning of a parking software stack. Created user login for sharing and booking. Create payment gateway using paypal. Integrated google map to show available parking space for booking. created interactive process.
+
+
+        Technologies used: Linux, Python, Django, MySQL, Paypal
+
+
+        Django developer at Quadloops (2014 - 2015)
+
+        ===========================================
+
+
+        Created a website for Gamification. This is actually an REST API. Developers can use this API endpoints to create gamification website. 
+
+
+        Technologies used: Django, DjangoRestFramework
+
+
+        Freelancer at upwork.com
+
+        ========================
+
+        + https://www.upwork.com/o/profiles/users/_~0127fcf1d3d44f0eb1/
+
+
+        Opensource works (Inventory Software for Shops)
+
+        ===============================================
+
+        Developed an inventory software using python3.2, tkinter, and sqlite3. you can make invoices for a shop using this software. 
+
+        + [Pyinvoice](https://sourceforge.net/projects/pyinvoice/files/)
+
+
+        Updated an [school quiz application](https://github.com/sibtc/django-multiple-user-types-example) fork
+
+        + [Django School Fork](https://github.com/suhailvs/django-schools)
+
+
+        Django developer at Donams (2018 - 2021)
+
+        ========================================
+
+        Created a website for Schools. Rest API using Django and Django Rest Framework. And Frontend
+
+        using Angular.
+
+        Technologies used: Django, DjangoRestFramework, Angular 8
+
+
+        Upwork freelancing(2021 sept - preset)
+
+        ======================================
+
+        Pdf generation using weasyprint
+
+        django website
+      description: ""
+      type: text
+      multiline: text/x-markdown
+    - id: pair_ac7e82c3628b4b1b921f7412d43cc1a0
+      name: week_availablility
+      value: "35.5"
+      description: ""
+    - id: pair_a1937d2db9d8417f9bd6a58c87d17b97
+      name: skills
+      value: "3"
+      description: ""
+    - id: pair_023cd07b5b5f480d9e6e9933402169b0
+      name: portfolios
+      value: "3"
+      description: ""
+parameters: []
+headers:
+  - id: pair_f73e0ffb16a74d949c1101beaf775cdf
+    name: Authorization
+    value: "{{ _.token }}"
+    description: ""
+  - name: Content-Type
+    value: multipart/form-data
+    id: pair_0805624cd27d4c5c8d838ba88d079fde
+authentication: {}
+metaSortKey: -1642982053004
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

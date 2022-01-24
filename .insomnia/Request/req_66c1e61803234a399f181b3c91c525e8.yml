@@ -1,0 +1,25 @@
+_id: req_66c1e61803234a399f181b3c91c525e8
+type: Request
+parentId: fld_43f23fb2a11b4e32874c40d6b196a27c
+modified: 1642983132993
+created: 1642983015041
+url: "{{ _.url }}/client_profile/"
+name: get
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_36aec1110e4e429490b68478aa1e7464
+    name: Authorization
+    value: "{{ _.token }}"
+    description: ""
+authentication: {}
+metaSortKey: -1642983046826
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

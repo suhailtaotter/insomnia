@@ -1,0 +1,36 @@
+_id: req_ee77e39039ac4db4ab2d978370a22132
+type: Request
+parentId: fld_43f23fb2a11b4e32874c40d6b196a27c
+modified: 1642983128012
+created: 1642982940058
+url: "{{ _.url }}/client_profile/"
+name: save
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"company_name":"Google",
+    	"website":"https://google.com",
+    	"country":"US",
+    	"timezone":"-5:00"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_2979b478ca904a35b3f4ede6cd848cb0
+  - id: pair_3747357eec2e4d9a8f31ad613a3b5223
+    name: Authorization
+    value: "{{ _.token }}"
+    description: ""
+authentication: {}
+metaSortKey: -1642982940058
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

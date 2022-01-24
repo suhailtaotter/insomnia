@@ -1,0 +1,36 @@
+_id: req_cde7278ed0324381a91de47641591f70
+type: Request
+parentId: fld_aeb9175ca90e4ee29c6c226fd9c4b5fa
+modified: 1642980909436
+created: 1642980760395
+url: "{{ _.url }}/portfolio/2/"
+name: patch
+description: ""
+method: PATCH
+body:
+  mimeType: multipart/form-data
+  params:
+    - id: pair_8b5cb61bdc4e49ba839fa64b5526d45b
+      name: project_pic
+      value: ""
+      description: ""
+      type: file
+      multiline: null
+      fileName: /home/suhail/Desktop/2777384.jpeg
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+    id: pair_616cd9c6a47d49b597df762c63df0f93
+  - name: Authorization
+    value: "{{ _.token }}"
+    id: pair_1ddf97155c964f57a9c66fda109511a9
+authentication: {}
+metaSortKey: -1642980789062
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

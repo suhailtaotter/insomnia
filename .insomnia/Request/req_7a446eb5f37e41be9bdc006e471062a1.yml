@@ -1,0 +1,25 @@
+_id: req_7a446eb5f37e41be9bdc006e471062a1
+type: Request
+parentId: fld_a036a39751794967857b2f9cfd0a008c
+modified: 1642982555626
+created: 1642981457510
+url: "{{ _.url }}/skills/"
+name: get list
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_46a71144ff9c4bf5b8b9982c31aaf21b
+    name: Authorization
+    value: "{{ _.token }}"
+    description: ""
+authentication: {}
+metaSortKey: -1642981462007.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

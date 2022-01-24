@@ -1,0 +1,45 @@
+_id: req_ac3f669fed924d578825ccd0f1ab077e
+type: Request
+parentId: fld_aeb9175ca90e4ee29c6c226fd9c4b5fa
+modified: 1642980906362
+created: 1642980604462
+url: "{{ _.url }}/portfolio/"
+name: create
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - id: pair_fa2f34234c4f4613b4ee9012d35ad8b7
+      name: title
+      value: leetcode
+      description: ""
+    - id: pair_e17e9cf8929e47bdb866a50b46b70c25
+      name: project_pic
+      value: ""
+      description: ""
+      type: file
+      multiline: null
+      fileName: /home/suhail/Pictures/demo-image.jpg
+    - id: pair_7d9fdce2e9814ab88f92b74ff8fe5122
+      name: desc
+      value: leetcode two sum
+      description: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+    id: pair_92e95ef771124c3d9d19690a1e5b85f1
+  - id: pair_0c62b43e53bf4849aa023c6f52e9b1c5
+    name: Authorization
+    value: "{{ _.token }}"
+    description: ""
+authentication: {}
+metaSortKey: -1642980789087
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

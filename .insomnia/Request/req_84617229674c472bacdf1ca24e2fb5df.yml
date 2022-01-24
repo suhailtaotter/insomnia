@@ -1,10 +1,10 @@
 _id: req_84617229674c472bacdf1ca24e2fb5df
 type: Request
 parentId: wrk_093f6ef1f55f404e9cae6a2a33a23145
-modified: 1642953168677
+modified: 1642981738406
 created: 1642953031746
 url: "{{ _.url }}/api-token-auth/"
-name: My Request
+name: Login
 description: ""
 method: POST
 body:
@@ -24,7 +24,7 @@ headers:
     value: application/x-www-form-urlencoded
     id: pair_aeb2cdb2330347d7a5cf5957d16acd42
 authentication: {}
-metaSortKey: -1642953031747
+metaSortKey: -1642981070930
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

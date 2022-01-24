@@ -1,0 +1,35 @@
+_id: req_d0e7d0cee33946ba8b8c4a86e3456cd7
+type: Request
+parentId: wrk_093f6ef1f55f404e9cae6a2a33a23145
+modified: 1642983540972
+created: 1642980525406
+url: "{{ _.url }}/accounts/register/"
+name: Sign Up
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |
+    {
+    	"username":"taotter",
+    	"password":"sumee1910",
+    	"password_confirm":"sumee1910",
+    	"user_type":2,
+    	"mobile":"7356775981",
+    	"email":"suhail@taotter.com",
+    	"first_name":"nusra"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_75b227b87b2145759d33d3e9ff9f8379
+authentication: {}
+metaSortKey: -1642981070905
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

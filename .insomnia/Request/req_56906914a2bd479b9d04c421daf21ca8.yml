@@ -1,0 +1,25 @@
+_id: req_56906914a2bd479b9d04c421daf21ca8
+type: Request
+parentId: fld_aeb9175ca90e4ee29c6c226fd9c4b5fa
+modified: 1642981034522
+created: 1642980783832
+url: "{{ _.url }}/portfolio/2/"
+name: get item
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_06c07acc30d24f4eb1ddce5c91eef62e
+    name: Authorization
+    value: "{{ _.token }}"
+    description: ""
+authentication: {}
+metaSortKey: -1642980789049.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
